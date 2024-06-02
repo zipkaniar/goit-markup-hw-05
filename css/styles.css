@@ -603,3 +603,15 @@ h6 {
 .modal-window-input:focus {
     border-color: #4D5AE5;
 }
+
+.inputicon-svg {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-window-input:focus-within+.inputicon-svg {
+    fill: #4d5ae5;
+}
