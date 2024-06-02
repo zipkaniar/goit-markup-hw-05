@@ -465,7 +465,26 @@
                         </svg>
                     </div>
                 </div>
-                <div class="formbox-modal-windowtext-container"></div>
+                <div class="formbox-modal-windowtext-container">
+                    <label for="user-comment" class="formbox-modal-label">Comment</label>
+                    <textarea id="user-comment" name="user-comment" placeholder="text input" class="textarea-input">
+                    </textarea>
+                </div>
+                <div class="modal-chec-container">
+                    <input id="user-privacy" type="checkbox" value="true" name="user-privacy"
+                        class="modal-chec-input visually-hidden" />
+                    <label for="user-privacy" class="modal-chec-label">
+                        <span class="modal-chec-span">
+                            <svg width="10" height="8" class="modal-chec-svg">
+                                <use href="./images/symbol-defs.svg#icon-okey-button"></use>
+                            </svg>
+                        </span> accept the terms and conditions of the
+                        <a href="" class="chec-privacy-link">Privacy Policy</a>
+                    </label>
+                </div>
+                <button type="submit" class="modal-window-btn button">
+                    SEND
+                </button>
             </form>
         </div>
     </div>
