@@ -417,7 +417,7 @@
                     <button type="submit" class="footer-btn">
                         Subscribe
                         <svg width="24" height="24" class="footer-svg">
-                            <use href="./images/symbol-defs.svg#icon-Frame-3"></use>
+                            <use href="./images/symbol-defs.svg#icon-icon-send"></use>
                         </svg>
                     </button>
                 </form>
@@ -426,6 +426,35 @@
 
         </div>
     </footer>
+
+    /* MODAL WİNDOW*/
+    <div class="container-modal-window">
+        <div class="modal-window">
+            <button type="button" class="modal-btn">
+                <svg class="x-svg" width="8" height="8">
+                    <use href="./images/symbol-defs.svg#icon-close-black-18dp-1">
+                    </use>
+                </svg>
+            </button>
+            <p class="title-modal-window">Leave your contacts and we will call you back</p>
+            <form>
+                <div class="formbox-modal-window">
+                    <label class="formbox-modal-label" for="user-name">Name</label>
+                    <div class="icon-input-container"></div>
+                    <input id="user-name" name="user-name" type="text" class="modal-window-input" />
+                </div>
+                <div class=" formbox-modal-window">
+                    <label class="formbox-modal-label" for="user-phone">Phone</label>
+                    <div class="icon-input-container"></div>
+                </div>
+                <div class="formbox-modal-window">
+                    <label class="formbox-modal-label" for="user-email">Email</label>
+                    <div class="icon-input-container"></div>
+                </div>
+                <div class="formbox-modal-windowtext-container"></div>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
